@@ -3,7 +3,7 @@ from Core.PreProcess import *
 from Core.TrainLanguage import *
 import os
 import pickle
-MyClassifier = r'D:\university\four year\second term\nlp\NLP_Project-my.pickle.pickle'
+MyClassifier = r'NLP_Project-my.pickle.pickle'
 class Classifier:
     def __init__(self,inputText):
         if not os.path.exists(MyClassifier):
